@@ -1,5 +1,5 @@
 import { Navigate, Route, Routes } from 'react-router-dom'
-import { Box, Drawer, IconButton, useTheme } from '@mui/material'
+import { Box, Button, Drawer, IconButton, useTheme } from '@mui/material'
 import { useAppThemeContext } from '../shared/contexts'
 import Brightness6Icon from '@mui/icons-material/Brightness6'
 export const AppRoutes = () => {

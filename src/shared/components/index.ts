@@ -1,1 +1,1 @@
-export {}
+export { MenuLateral } from './menu/MenuLateral'
