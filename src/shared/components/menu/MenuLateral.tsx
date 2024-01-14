@@ -1,6 +1,20 @@
-import { Button, Drawer, TextField, useTheme } from '@mui/material'
+import {
+  AppBar,
+  Button,
+  Container,
+  Drawer,
+  Icon,
+  List,
+  ListItemButton,
+  ListItemIcon,
+  ListItemText,
+  TextField,
+  useTheme
+} from '@mui/material'
 import { Box } from '@mui/system'
 import { ReactNode } from 'react'
+import SportsIcon from '@mui/icons-material/Sports'
+import EmojiEventsIcon from '@mui/icons-material/EmojiEvents'
 
 interface MenuLateralProps {
   children: ReactNode
@@ -10,34 +24,33 @@ export const MenuLateral: React.FC<MenuLateralProps> = ({ children }) => {
   const theme = useTheme()
   return (
     <>
-      <Drawer variant="permanent">
-        <Box width={theme.spacing(25)}>
-          <Box
-            height={theme.spacing(3)}
-            display="flex"
-            alignItems="center"
-            justifyContent="flex-start"
-            margin={theme.spacing(1)}
-          >
-            <Button>Jogos</Button>
-          </Box>
-          <Box
-            height={theme.spacing(3)}
-            display="flex"
-            alignItems="center"
-            justifyContent="flex-start"
-            margin={theme.spacing(1)}
-          >
-            <Button>Classificação</Button>
-          </Box>
-          <Box
-            height={theme.spacing(3)}
-            display="flex"
-            alignItems="center"
-            justifyContent="flex-start"
-            margin={theme.spacing(1)}
-          >
-            <Button>Noticias</Button>
+      <Drawer
+        variant="permanent"
+        background-color={theme.palette.secondary}
+        sx={{ bgcolor: 'primary.main' }}
+      >
+        <Box width={theme.spacing(28)} sx={{ bgcolor: 'primary.main' }}>
+          <Box flex={1} sx={{ bgcolor: 'primary.main' }}>
+            <List component="nav" background-color={theme.palette.primary}>
+              <ListItemButton>
+                <ListItemIcon>
+                  <Icon>home</Icon>
+                </ListItemIcon>
+                <ListItemText primary="Página Inicial" />
+              </ListItemButton>
+              <ListItemButton>
+                <ListItemIcon>
+                  <SportsIcon />
+                </ListItemIcon>
+                <ListItemText primary="Tabela de Jogos" />
+              </ListItemButton>
+              <ListItemButton>
+                <ListItemIcon>
+                  <EmojiEventsIcon />
+                </ListItemIcon>
+                <ListItemText primary="Classificação" />
+              </ListItemButton>
+            </List>
           </Box>
         </Box>
       </Drawer>

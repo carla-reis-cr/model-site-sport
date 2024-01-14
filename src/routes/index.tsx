@@ -2,6 +2,7 @@ import { Navigate, Route, Routes } from 'react-router-dom'
 import { Box, Button, Drawer, IconButton, useTheme } from '@mui/material'
 import { useAppThemeContext } from '../shared/contexts'
 import Brightness6Icon from '@mui/icons-material/Brightness6'
+import Fundo from '../images/logo/layout.png'
 export const AppRoutes = () => {
   const theme = useTheme()
   const { toggleTheme } = useAppThemeContext()
