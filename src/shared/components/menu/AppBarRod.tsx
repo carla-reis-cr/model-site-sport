@@ -24,83 +24,82 @@ import Patrocinador15 from '../../../images/patrocinadores/15.png'
 
 export const AppBarRodape = () => {
   return (
-    <footer className="footer" style={{ flexShrink: 0, padding: '20px' }}>
-      <Container maxWidth="xl" sx={{ flexGrow: 1, padding: 0, margin: 0 }}>
-        <Toolbar disableGutters sx={{ padding: 0, margin: -5.5 }}>
-          <Box
-            component="footer"
-            sx={{
-              flexGrow: 1,
-              display: { xs: 'none', md: 'flex' },
-              py: 4,
-              px: 4,
-              mt: 'auto',
-              backgroundColor: theme =>
-                theme.palette.mode === 'light'
-                  ? theme.palette.secondary.light
-                  : theme.palette.secondary.dark
-            }}
-          >
-            <Box
-              sx={{
-                flexGrow: 1,
-                py: 1,
-                px: 1,
-                fontFamily: 'Segoe UI',
-                fontWeight: 700,
-                letterSpacing: '.1rem',
-                color: 'white',
-                textDecoration: 'none'
-              }}
-            >
-              Patrocinadores
-              <Box sx={{ padding: '10px' }}>
-                <Grid container spacing={2}>
-                  <Grid item xs={2}>
-                    <img src={Patrocinador2} width="130" height="70" />
-                  </Grid>
-                  <Grid item xs={2}>
-                    <img src={Patrocinador3} width="130" height="70" />
-                  </Grid>
-                  <Grid item xs={2}>
-                    <img src={Patrocinador4} width="130" height="70" />
-                  </Grid>
-                  <Grid item xs={2}>
-                    <img src={Patrocinador5} width="130" height="70" />
-                  </Grid>
-                  <Grid item xs={2}>
-                    <img src={Patrocinador6} width="130" height="70" />
-                  </Grid>
-                  <Grid item xs={2}>
-                    <img src={Patrocinador7} width="130" height="70" />
-                  </Grid>
-                  <Grid item xs={2}>
-                    <img src={Patrocinador9} width="130" height="70" />
-                  </Grid>
-                  <Grid item xs={2}>
-                    <img src={Patrocinador10} width="130" height="70" />
-                  </Grid>
-                  <Grid item xs={2}>
-                    <img src={Patrocinador11} width="130" height="70" />
-                  </Grid>
-                  <Grid item xs={2}>
-                    <img src={Patrocinador12} width="130" height="70" />
-                  </Grid>
-                  <Grid item xs={2}>
-                    <img src={Patrocinador13} width="130" height="70" />
-                  </Grid>
-                  <Grid item xs={2}>
-                    <img src={Patrocinador14} width="130" height="70" />
-                  </Grid>
-                  <Grid item xs={2}>
-                    <img src={Patrocinador15} width="130" height="70" />
-                  </Grid>
-                </Grid>
-              </Box>
-            </Box>
+    <AppBar position="static">
+      <Box
+        component="footer"
+        sx={{
+          flexGrow: 1,
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
+          minHeight: '20vh',
+          backgroundColor: theme =>
+            theme.palette.mode === 'light'
+              ? theme.palette.secondary.light
+              : theme.palette.secondary.dark,
+          padding: '10px'
+        }}
+      >
+        <Box
+          sx={{
+            py: 1,
+            px: 3,
+            fontFamily: 'Segoe UI',
+            fontWeight: 700,
+            alignItems: 'center',
+            letterSpacing: '.1rem',
+            color: 'white',
+            textDecoration: 'none',
+            marginBottom: 0
+          }}
+        >
+          Patrocinadores
+          <Box sx={{ padding: '10px' }}>
+            <Grid container spacing={1}>
+              <Grid item xs={3}>
+                <img src={Patrocinador2} width="150" height="90" />
+              </Grid>
+              <Grid item xs={3}>
+                <img src={Patrocinador3} width="150" height="90" />
+              </Grid>
+              <Grid item xs={3}>
+                <img src={Patrocinador4} width="150" height="90" />
+              </Grid>
+              <Grid item xs={3}>
+                <img src={Patrocinador5} width="150" height="90" />
+              </Grid>
+              <Grid item xs={3}>
+                <img src={Patrocinador6} width="150" height="90" />
+              </Grid>
+              <Grid item xs={3}>
+                <img src={Patrocinador7} width="150" height="90" />
+              </Grid>
+              <Grid item xs={3}>
+                <img src={Patrocinador9} width="150" height="90" />
+              </Grid>
+              <Grid item xs={3}>
+                <img src={Patrocinador10} width="150" height="90" />
+              </Grid>
+              <Grid item xs={3}>
+                <img src={Patrocinador11} width="150" height="90" />
+              </Grid>
+              <Grid item xs={3}>
+                <img src={Patrocinador12} width="150" height="90" />
+              </Grid>
+              <Grid item xs={3}>
+                <img src={Patrocinador13} width="150" height="90" />
+              </Grid>
+              <Grid item xs={3}>
+                <img src={Patrocinador14} width="150" height="90" />
+              </Grid>
+              <Grid item xs={3}>
+                <img src={Patrocinador15} width="150" height="90" />
+              </Grid>
+            </Grid>
           </Box>
-        </Toolbar>
-      </Container>
-    </footer>
+        </Box>
+      </Box>
+    </AppBar>
   )
 }

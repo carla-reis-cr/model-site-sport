@@ -1,14 +1,10 @@
 import { Box, Grid, Paper } from '@mui/material'
-import BackgroundPage from '../images/logo/layout.png'
-import LogoPatrocinadorMaster from '../images/patrocinadores/HUNSRUCK.png'
+import BackgroundPage from '../images/logo/teste1.png'
 export const Jogos = () => {
   const styles = {
     paperContainer: {
       backgroundImage: `url(${BackgroundPage})`
-    },
-    position: 'relative',
-    height: '300px',
-    minHeight: '300px'
+    }
   }
 
   return (
@@ -16,11 +12,16 @@ export const Jogos = () => {
       <Box
         sx={{
           flexGrow: 1,
-          fontFamily: 'Segoe UI',
-          fontWeight: 700,
-          letterSpacing: '.1rem',
-          color: 'white',
-          textDecoration: 'none'
+          backgroundSize: 'cover',
+          backgroundRepeat: 'repeat-1',
+          backgroundPosition: 'center',
+          width: '100%',
+          height: '850px',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          color: 'white', // Cor do texto, ajuste conforme necessário
+          fontSize: '2rem' // Tamanho da fonte, ajuste conforme necessário
         }}
       >
         Jogos
