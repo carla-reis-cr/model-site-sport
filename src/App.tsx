@@ -4,13 +4,12 @@ import { AppThemeProvider } from './shared/contexts'
 import { AppBarRodape, AppBarSite, MenuLateral } from './shared/components'
 
 export const App = () => {
+  console.log('Routes')
+
   return (
     <AppThemeProvider>
       <BrowserRouter>
-        <AppBarSite>
-          <AppRoutes />
-        </AppBarSite>
-        <AppBarRodape />
+        <AppRoutes />
       </BrowserRouter>
     </AppThemeProvider>
   )

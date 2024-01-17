@@ -16,25 +16,19 @@ import AdbIcon from '@mui/icons-material/Adb'
 import { ReactNode } from 'react'
 import Logo from '../../../images/logo/LOGO_SOL.png'
 import CopaVerao from '../../../images/logo/COPA_VERAO.png'
-import LogoPatrocinadorMaster from '../../../images/logo/HUNSRUCK.png'
+import LogoPatrocinadorMaster from '../../../images/patrocinadores/HUNSRUCK.png'
 import { Copyright } from '@mui/icons-material'
 import { MenuLateral } from './MenuLateral'
 const pages = [
   { title: 'Home', path: '/Home' },
-  { title: 'Tabela de Jogos', path: '/tabela-de-jogos' },
-  { title: 'Resultados', path: '/resultados' },
+  { title: 'Jogos', path: '/jogos' },
+  { title: 'Classificação', path: '/classificacao' },
   { title: 'Estatísticas', path: '/estatisticas' },
   { title: 'Equipes', path: '/equipes' }
 ]
-interface AppBarSiteProps {
-  to?: string
-  onClick?: (() => void) | undefined
-  children: ReactNode
-}
-
-export const AppBarSite: React.FC<AppBarSiteProps> = ({ children }) => {
+export const AppBarSite = () => {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null)
-  const navigate = useNavigate()
+
   const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorElNav(event.currentTarget)
   }
@@ -102,7 +96,14 @@ export const AppBarSite: React.FC<AppBarSiteProps> = ({ children }) => {
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, color: 'inherit', display: 'block' }}
                 >
-                  <Typography textAlign="center">{page.title}</Typography>
+                  <Typography textAlign="center">
+                    <Link
+                      style={{ textDecoration: 'none', color: 'inherit' }}
+                      to={`${page.path}`}
+                    >
+                      {page.title}
+                    </Link>
+                  </Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -123,8 +124,8 @@ export const AppBarSite: React.FC<AppBarSiteProps> = ({ children }) => {
               textDecoration: 'none'
             }}
           >
-            <Box height={'50px'}>
-              <img src={CopaVerao} width="110" height="50" />
+            <Box>
+              <img src={CopaVerao} width="130" height="70" />
             </Box>
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
@@ -136,7 +137,12 @@ export const AppBarSite: React.FC<AppBarSiteProps> = ({ children }) => {
                 to={page.path}
                 sx={{ my: 2, color: 'inherit', display: 'block' }}
               >
-                {page.title}
+                <Link
+                  style={{ textDecoration: 'none', color: 'inherit' }}
+                  to={`${page.path}`}
+                >
+                  {page.title}
+                </Link>
               </Button>
             ))}
           </Box>

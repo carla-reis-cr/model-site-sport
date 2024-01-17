@@ -1,1 +1,5 @@
-export {}
+export * from './Home'
+export * from './Jogos'
+export * from './Classificacao'
+export * from './Estatisticas'
+export * from './Equipes'

@@ -1,33 +1,22 @@
 import { Navigate, Route, Routes } from 'react-router-dom'
-import { Box, Button, Drawer, IconButton, useTheme } from '@mui/material'
-import { useAppThemeContext } from '../shared/contexts'
-import Brightness6Icon from '@mui/icons-material/Brightness6'
-import Fundo from '../images/logo/layout.png'
+import { AppBarRodape, AppBarSite } from '../shared/components'
+import { Classificacao, Equipes, Estatisticas, Home, Jogos } from '../pages'
 export const AppRoutes = () => {
-  const theme = useTheme()
-  const { toggleTheme } = useAppThemeContext()
+  console.log('AppRoutes')
   return (
-    <Routes>
-      <Route
-        path="/home"
-        element={
-          <Box>
-            <Box
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'flex-end',
-                borderRadius: 1
-              }}
-            >
-              <IconButton color="primary" onClick={toggleTheme}>
-                <Brightness6Icon />
-              </IconButton>
-            </Box>
-          </Box>
-        }
-      />
-      <Route path="*" element={<Navigate to="/Home" />} />
-    </Routes>
+    <div className="app">
+      <AppBarSite />
+
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/jogos" element={<Jogos />} />
+        <Route path="/classificacao" element={<Classificacao />} />
+        <Route path="/estatisticas" element={<Estatisticas />} />
+        <Route path="/equipes" element={<Equipes />} />
+
+        <Route path="*" element={<Navigate to="/home" />} />
+      </Routes>
+      <AppBarRodape />
+    </div>
   )
 }
