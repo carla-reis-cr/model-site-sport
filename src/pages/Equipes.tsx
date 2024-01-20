@@ -11,9 +11,7 @@ import {
   responsiveFontSizes,
   useTheme
 } from '@mui/material'
-import { ReactNode, useEffect, useState } from 'react'
-
-import BackgroundPage from '../images/logo/Layout.png'
+import { useEffect, useState } from 'react'
 
 export const Equipes = () => {
   const theme = useTheme()
@@ -198,7 +196,7 @@ export const Equipes = () => {
 
   const styles = {
     paperContainer: {
-      backgroundImage: `url(${BackgroundPage})`,
+      backgroundImage: '../images/logo/Layout.png',
       width: '100%',
       height: '100%'
     }
