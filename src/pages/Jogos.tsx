@@ -1,9 +1,8 @@
 import { Box, Grid, Paper } from '@mui/material'
-import BackgroundPage from '../images/logo/Layout.png'
 export const Jogos = () => {
   const styles = {
     paperContainer: {
-      backgroundImage: `url(${BackgroundPage})`,
+      backgroundImage: '../images/logo/Layout.png',
       width: '100%',
       height: '100%'
     }
