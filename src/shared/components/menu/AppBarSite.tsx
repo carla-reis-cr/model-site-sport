@@ -149,7 +149,16 @@ export const AppBarSite = () => {
 
           <Box sx={{ flexGrow: 0 }}>
             <Box height={'50px'}>
-              <img src={LogoPatrocinadorMaster} width="110" height="50" />
+              <img
+                src={LogoPatrocinadorMaster}
+                style={{
+                  padding: 0,
+                  margin: 0,
+                  width: '100%',
+                  maxWidth: '200px',
+                  height: '100%'
+                }}
+              />
             </Box>
           </Box>
         </Toolbar>
