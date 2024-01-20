@@ -56,45 +56,84 @@ export const AppBarRodape = () => {
         >
           Patrocinadores
           <Box sx={{ padding: '10px' }}>
-            <Grid container spacing={1}>
-              <Grid item xs={3}>
-                <img src={Patrocinador2} width="150" height="90" />
+            <Grid container spacing={4}>
+              <Grid xs={6} sm={3}>
+                <img
+                  src={Patrocinador2}
+                  style={{ width: '100%', maxWidth: '150px', height: 'auto' }}
+                />
               </Grid>
-              <Grid item xs={3}>
-                <img src={Patrocinador3} width="150" height="90" />
+              <Grid xs={6} sm={3}>
+                <img
+                  src={Patrocinador3}
+                  style={{ width: '100%', maxWidth: '150px', height: 'auto' }}
+                />
               </Grid>
-              <Grid item xs={3}>
-                <img src={Patrocinador4} width="150" height="90" />
+              <Grid xs={6} sm={3}>
+                <img
+                  src={Patrocinador4}
+                  style={{ width: '100%', maxWidth: '150px', height: 'auto' }}
+                />
               </Grid>
-              <Grid item xs={3}>
-                <img src={Patrocinador5} width="150" height="90" />
+              <Grid xs={6} sm={3}>
+                <img
+                  src={Patrocinador5}
+                  style={{ width: '100%', maxWidth: '150px', height: 'auto' }}
+                />
               </Grid>
-              <Grid item xs={3}>
-                <img src={Patrocinador6} width="150" height="90" />
+              <Grid xs={6} sm={3}>
+                <img
+                  src={Patrocinador6}
+                  style={{ width: '100%', maxWidth: '150px', height: 'auto' }}
+                />
               </Grid>
-              <Grid item xs={3}>
-                <img src={Patrocinador7} width="150" height="90" />
+              <Grid xs={6} sm={3}>
+                <img
+                  src={Patrocinador7}
+                  style={{ width: '100%', maxWidth: '150px', height: 'auto' }}
+                />
               </Grid>
-              <Grid item xs={3}>
-                <img src={Patrocinador9} width="150" height="90" />
+              <Grid xs={6} sm={3}>
+                <img
+                  src={Patrocinador9}
+                  style={{ width: '100%', maxWidth: '150px', height: 'auto' }}
+                />
               </Grid>
-              <Grid item xs={3}>
-                <img src={Patrocinador10} width="150" height="90" />
+              <Grid xs={6} sm={3}>
+                <img
+                  src={Patrocinador10}
+                  style={{ width: '100%', maxWidth: '150px', height: 'auto' }}
+                />
               </Grid>
-              <Grid item xs={3}>
-                <img src={Patrocinador11} width="150" height="90" />
+              <Grid xs={6} sm={3}>
+                <img
+                  src={Patrocinador11}
+                  style={{ width: '100%', maxWidth: '150px', height: 'auto' }}
+                />
               </Grid>
-              <Grid item xs={3}>
-                <img src={Patrocinador12} width="150" height="90" />
+              <Grid xs={6} sm={3}>
+                <img
+                  src={Patrocinador12}
+                  style={{ width: '100%', maxWidth: '150px', height: 'auto' }}
+                />
               </Grid>
-              <Grid item xs={3}>
-                <img src={Patrocinador13} width="150" height="90" />
+              <Grid xs={6} sm={3}>
+                <img
+                  src={Patrocinador13}
+                  style={{ width: '100%', maxWidth: '150px', height: 'auto' }}
+                />
               </Grid>
-              <Grid item xs={3}>
-                <img src={Patrocinador14} width="150" height="90" />
+              <Grid xs={6} sm={3}>
+                <img
+                  src={Patrocinador14}
+                  style={{ width: '100%', maxWidth: '150px', height: 'auto' }}
+                />
               </Grid>
-              <Grid item xs={3}>
-                <img src={Patrocinador15} width="150" height="90" />
+              <Grid xs={6} sm={3}>
+                <img
+                  src={Patrocinador15}
+                  style={{ width: '100%', maxWidth: '150px', height: 'auto' }}
+                />
               </Grid>
             </Grid>
           </Box>
