@@ -59,119 +59,119 @@ export const Equipes = () => {
             nomeTime: 'DALLAS',
             naipe: 'Masculino',
             grupo: 'M1',
-            nomeImage: 'DALLAS'
+            nomeImage: 'Dallas'
           },
           {
             id: 3,
             nomeTime: 'MILAN B',
             naipe: 'Masculino',
             grupo: 'M2',
-            nomeImage: 'MILAN_B'
+            nomeImage: 'Milan_B'
           },
           {
             id: 4,
             nomeTime: 'SANTOS/PIT STOP',
             naipe: 'Masculino',
             grupo: 'M2',
-            nomeImage: 'SANTOS_PIT_STOP'
+            nomeImage: 'Santos_Pit_Stop'
           },
           {
             id: 5,
             nomeTime: 'RAJA CASABLANCA',
             naipe: 'Masculino',
             grupo: 'M1',
-            nomeImage: 'RAJA_CASABLANCA'
+            nomeImage: 'Raja_Casablanca'
           },
           {
             id: 6,
             nomeTime: 'AMIGOS DA COPA',
             naipe: 'Masculino',
             grupo: 'M3',
-            nomeImage: 'AMIGOS_DA_COPA'
+            nomeImage: 'Amigos_da_Copa'
           },
           {
             id: 7,
             nomeTime: 'MONKEY',
             naipe: 'Masculino',
             grupo: 'M3',
-            nomeImage: 'MONKEY'
+            nomeImage: 'Monkey'
           },
           {
             id: 8,
             nomeTime: 'HOMERO CAR',
             naipe: 'Masculino',
             grupo: 'M4',
-            nomeImage: 'HOMERO_CAR'
+            nomeImage: 'Homero_Car'
           },
           {
             id: 9,
             nomeTime: 'NIGHT BEER',
             naipe: 'Masculino',
             grupo: 'M4',
-            nomeImage: 'NIGHT_BEER'
+            nomeImage: 'Night_Beer'
           },
           {
             id: 10,
             nomeTime: 'HENRIQUE´S',
             naipe: 'Masculino',
             grupo: 'M1',
-            nomeImage: 'HENRIQUE_S'
+            nomeImage: 'Henrique_s'
           },
           {
             id: 11,
             nomeTime: 'PIQUETENSE',
             naipe: 'Masculino',
             grupo: 'M4',
-            nomeImage: 'PIQUETENSE'
+            nomeImage: 'Piquetense'
           },
           {
             id: 12,
             nomeTime: 'RESENHA',
             naipe: 'Masculino',
             grupo: 'M1',
-            nomeImage: 'RESENHA'
+            nomeImage: 'Resenha'
           },
           {
             id: 13,
             nomeTime: 'ATLÉTICO CAIENSE',
             naipe: 'Masculino',
             grupo: 'M4',
-            nomeImage: 'ATLÉTICO_CAIENSE'
+            nomeImage: 'Atlético_Caiense'
           },
           {
             id: 14,
             nomeTime: 'RED BULL FUTSAL',
             naipe: 'Masculino',
             grupo: 'M2',
-            nomeImage: 'RED_BULL_FUTSAL'
+            nomeImage: 'Red_Bull_Futsal'
           },
           {
             id: 15,
             nomeTime: 'BALANÇA REDE',
             naipe: 'Masculino',
             grupo: 'M2',
-            nomeImage: 'BALANCA_REDE'
+            nomeImage: 'Balanca_Rede'
           },
           {
             id: 16,
             nomeTime: 'JARDIM LUCIANA',
             naipe: 'Masculino',
             grupo: 'M3',
-            nomeImage: 'JARDIM_LUCIANA'
+            nomeImage: 'Jardim_Luciana'
           },
           {
             id: 17,
             nomeTime: 'CLÍNICA FUTSAL',
             naipe: 'Feminino',
             grupo: 'F2',
-            nomeImage: 'CLINICA_FUTSAL'
+            nomeImage: 'ClInica_Futsal'
           },
           {
             id: 18,
             nomeTime: 'RAYO',
             naipe: 'Feminino',
             grupo: 'F1',
-            nomeImage: 'RAYO'
+            nomeImage: 'Rayo'
           },
           {
             id: 19,
