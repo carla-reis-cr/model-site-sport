@@ -178,7 +178,7 @@ export const Equipes = () => {
             nomeTime: 'AMIGAS DO COPO',
             naipe: 'Feminino',
             grupo: 'F1',
-            nomeImage: 'AMIGAS_DO_COPO'
+            nomeImage: 'Amigas_do_Copo'
           },
           {
             id: 20,
@@ -192,28 +192,28 @@ export const Equipes = () => {
             nomeTime: 'FÊNIX',
             naipe: 'Feminino',
             grupo: 'F2',
-            nomeImage: 'FÊNIX'
+            nomeImage: 'Fênix'
           },
           {
             id: 22,
             nomeTime: 'GERBAC',
             naipe: 'Feminino',
             grupo: 'F1',
-            nomeImage: 'GERBAC'
+            nomeImage: 'Gerbac'
           },
           {
             id: 23,
             nomeTime: 'ATLÉTICO CAIENSE / DEVASTADORAS',
             naipe: 'Feminino',
             grupo: 'F2',
-            nomeImage: 'ATLÉTICO_CAIENSE_DEVASTADORAS'
+            nomeImage: 'Atlético_Caiense_Devastadoras'
           },
           {
             id: 24,
             nomeTime: 'ANTES DO BAR / IMPACTO',
             naipe: 'Feminino',
             grupo: 'F2',
-            nomeImage: 'ANTES_DO_BAR_IMPACTO'
+            nomeImage: 'Antes_do_Bar_Impacto'
           }
         ]
       }
